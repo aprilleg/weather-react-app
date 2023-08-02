@@ -11,7 +11,7 @@ export default function Weather() {
     setWeatherData({
       temperature: Math.round(response.data.main.temp),
       city: response.data.name,
-      iconUrl: response.data.condition.icon_url,
+      iconUrl: `https://ssl.gstatic.com/onebox/weather/64/thunderstorms.png`,
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
       description: response.data.weather[0].description,
@@ -68,7 +68,7 @@ export default function Weather() {
        </div>
      );
   } else {
-    const apiKey = "58a6775f97527351bf6c6966e209be39";
+    const apiKey = "ab8e7ef210556986d1c9a75d6007b825";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${weatherData.city}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(showResponse);
