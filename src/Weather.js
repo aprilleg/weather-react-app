@@ -56,7 +56,7 @@ export default function Weather() {
                <li>
                  <img
                    src={weatherData.iconUrl}
-                   alt="weather status"
+                   alt={weatherData.description}
                  />
                </li>
                <li> {weatherData.description} </li>
@@ -69,7 +69,8 @@ export default function Weather() {
      );
   } else {
     const apiKey = "ab8e7ef210556986d1c9a75d6007b825";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${weatherData.city}&appid=${apiKey}&units=metric`;
+    let city = "Tokyo";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(showResponse);
 
