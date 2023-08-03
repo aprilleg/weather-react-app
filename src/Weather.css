@@ -23,7 +23,8 @@
 .Weather ul {
     margin: 10px;
 }
-.Weather img {
+.Weather canvas{
+    margin-top: 5px;
     height: 64px;
     width: 64px;
 }
