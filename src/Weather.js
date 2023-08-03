@@ -13,8 +13,8 @@ export default function Weather(props) {
     setWeatherData({
       temperature: Math.round(response.data.main.temp),
       city: response.data.name,
-      date: new Date(response.data.dt*1000),
-      iconUrl: `https://ssl.gstatic.com/onebox/weather/64/thunderstorms.png`,
+      date: new Date(response.data.dt * 1000),
+      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
       description: response.data.weather[0].description,
