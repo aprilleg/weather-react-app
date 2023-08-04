@@ -9,7 +9,7 @@ export default function WeatherInfo (props){
     <div className="row">
       <div className="col-6">
         <h1>{props.data.city}</h1>
-        <p>
+        <p className="mb-0">
           <CurrentDate date={props.data.date} />
         </p>
         <WeatherTemperature celsius={props.data.temperature} />
