@@ -10,12 +10,15 @@ h1 {
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
+    color: #008E9B;
 }
 .humidityTemperature {
     text-align: center;
+    color: #003A4D;
 }
 .windTemperature {
     text-align: center;
+    color: #003A4D;
 }
 .section {
     margin-top: 10px;
