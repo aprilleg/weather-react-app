@@ -1,7 +1,15 @@
 .Weather {
     border: 1px solid #D9D9D9;
     padding: 20px;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    border-radius: 4px;
 }
+.btn {
+    background: linear-gradient(110.2deg, rgb(99, 192, 227) 5.3%, rgb(98, 72, 194) 100.2%);
+    border: none;
+    color: white;
+}
+
 .Weather h1 {
     margin-top: 10px;
     margin-bottom: 0;
@@ -11,14 +19,15 @@
     font-size: 16px;
 }
 .temperature {
-    font-size: 48px;
+    font-size: 64px;
     margin-top: 0px;
+    padding: 0 0 0 20px;
 }
 .Weather .unit {
     font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -24px;
+    top: -32px;
 }
 
 .Weather ul {
@@ -32,4 +41,5 @@
 .Weather li {
     list-style: none;
     font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

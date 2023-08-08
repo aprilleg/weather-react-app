@@ -1,0 +1,22 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #003A4D;
+    font-size: 40px;
+}
+.weatherIcon {
+    text-align: center;
+}
+.weatherDescription {
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.humidityTemperature {
+    text-align: center;
+}
+.windTemperature {
+    text-align: center;
+}
+.section {
+    margin-top: 10px;
+}
