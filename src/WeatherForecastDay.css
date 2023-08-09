@@ -1,0 +1,17 @@
+.WeatherForecast-day,
+.WeatherForecast-max,
+.WeatherForecast-min {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.WeatherForecast-day {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #003a4d;
+}
+.WeatherForecast-max,
+.WeatherForecast-min {
+  font-size: 14px;
+}
+.WeatherForecast-max {
+  color: #003a4d;
+}

@@ -8,6 +8,10 @@
     background: linear-gradient(110.2deg, rgb(99, 192, 227) 5.3%, rgb(98, 72, 194) 100.2%);
     border: none;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    color: white;
 }
 
 .Weather h1 {
